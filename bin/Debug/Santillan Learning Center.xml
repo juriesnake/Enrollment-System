@@ -1,0 +1,108 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+SantillanLearningCenter
+</name>
+</assembly>
+<members>
+<member name="T:Santillan_Learning_Center.dbSchoolDataSet.AccountsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Santillan_Learning_Center.dbSchoolDataSet.SchoolDataDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Santillan_Learning_Center.dbSchoolDataSet.StudentsDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Santillan_Learning_Center.dbSchoolDataSet.AccountsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Santillan_Learning_Center.dbSchoolDataSet.SchoolDataRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Santillan_Learning_Center.dbSchoolDataSet.StudentsRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Santillan_Learning_Center.dbSchoolDataSet.AccountsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Santillan_Learning_Center.dbSchoolDataSet.SchoolDataRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Santillan_Learning_Center.dbSchoolDataSet.StudentsRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Santillan_Learning_Center.dbSchoolDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Santillan_Learning_Center.dbSchoolDataSetTableAdapters.AccountsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Santillan_Learning_Center.dbSchoolDataSetTableAdapters.SchoolDataTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Santillan_Learning_Center.dbSchoolDataSetTableAdapters.StudentsTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Santillan_Learning_Center.dbSchoolDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Santillan_Learning_Center.dbSchoolDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Santillan_Learning_Center.dbSchoolDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Santillan_Learning_Center.dbSchoolDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Santillan_Learning_Center.dbSchoolDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Santillan_Learning_Center.dbSchoolDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Santillan_Learning_Center.dbSchoolDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Santillan_Learning_Center.dbSchoolDataSetTableAdapters.TableAdapterManager.UpdateAll(Santillan_Learning_Center.dbSchoolDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Santillan_Learning_Center.dbSchoolDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Santillan_Learning_Center.dbSchoolDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Santillan_Learning_Center.dbSchoolDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="P:Santillan_Learning_Center.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Santillan_Learning_Center.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:Santillan_Learning_Center.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>

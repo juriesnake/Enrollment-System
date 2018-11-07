@@ -1,0 +1,287 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E064C175-C402-4A5B-AA0A-67413A87796A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Santillan_Learning_Center.My.MyApplication</StartupObject>
+    <RootNamespace>Santillan_Learning_Center</RootNamespace>
+    <AssemblyName>Santillan Learning Center</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Santillan Learning Center.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Santillan Learning Center.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>On</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>logo.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Cashier\Payment.Designer.vb">
+      <DependentUpon>Payment.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Cashier\Payment.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Information\SplashScreen.Designer.vb">
+      <DependentUpon>SplashScreen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Information\SplashScreen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Students\EditBasicInformation.Designer.vb">
+      <DependentUpon>EditBasicInformation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Students\EditBasicInformation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Students\EditGuardiansInformation.Designer.vb">
+      <DependentUpon>EditGuardiansInformation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Students\EditGuardiansInformation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Students\StudentSearch.Designer.vb">
+      <DependentUpon>StudentSearch.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Students\StudentSearch.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="System\AccountChangePassword.Designer.vb">
+      <DependentUpon>AccountChangePassword.vb</DependentUpon>
+    </Compile>
+    <Compile Include="System\AccountChangePassword.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="System\AccountCreateNew.Designer.vb">
+      <DependentUpon>AccountCreateNew.vb</DependentUpon>
+    </Compile>
+    <Compile Include="System\AccountCreateNew.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="System\TuitionFeeUpdate.Designer.vb">
+      <DependentUpon>TuitionFeeUpdate.vb</DependentUpon>
+    </Compile>
+    <Compile Include="System\TuitionFeeUpdate.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dbSchoolDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbSchoolDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Information\About.Designer.vb">
+      <DependentUpon>About.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Information\About.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Information\Help.Designer.vb">
+      <DependentUpon>Help.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Information\Help.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="System\Lock.Designer.vb">
+      <DependentUpon>Lock.vb</DependentUpon>
+    </Compile>
+    <Compile Include="System\Lock.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="System\AccountLogin.Designer.vb">
+      <DependentUpon>AccountLogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="System\AccountLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="modData.vb" />
+    <Compile Include="Students\Students.Designer.vb">
+      <DependentUpon>Students.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Students\Students.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Enrollment\EnrollmentNewStudent.Designer.vb">
+      <DependentUpon>EnrollmentNewStudent.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Enrollment\EnrollmentNewStudent.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Enrollment\EnrollmentOldStudent.Designer.vb">
+      <DependentUpon>EnrollmentOldStudent.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Enrollment\EnrollmentOldStudent.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main.Designer.vb">
+      <DependentUpon>Main.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Cashier\Payment.resx">
+      <DependentUpon>Payment.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Information\SplashScreen.resx">
+      <DependentUpon>SplashScreen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Students\EditBasicInformation.resx">
+      <DependentUpon>EditBasicInformation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Students\EditGuardiansInformation.resx">
+      <DependentUpon>EditGuardiansInformation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Students\StudentSearch.resx">
+      <DependentUpon>StudentSearch.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="System\AccountChangePassword.resx">
+      <DependentUpon>AccountChangePassword.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="System\AccountCreateNew.resx">
+      <DependentUpon>AccountCreateNew.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="System\Lock.resx">
+      <DependentUpon>Lock.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="System\AccountLogin.resx">
+      <DependentUpon>AccountLogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="System\TuitionFeeUpdate.resx">
+      <DependentUpon>TuitionFeeUpdate.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Information\About.resx">
+      <DependentUpon>About.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Information\Help.resx">
+      <DependentUpon>Help.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Students\Students.resx">
+      <DependentUpon>Students.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Enrollment\EnrollmentNewStudent.resx">
+      <DependentUpon>EnrollmentNewStudent.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Enrollment\EnrollmentOldStudent.resx">
+      <DependentUpon>EnrollmentOldStudent.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main.resx">
+      <DependentUpon>Main.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="dbSchoolDataSet.xsc">
+      <DependentUpon>dbSchoolDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="dbSchoolDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbSchoolDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbSchoolDataSet.xss">
+      <DependentUpon>dbSchoolDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="logo.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

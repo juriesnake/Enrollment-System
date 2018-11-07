@@ -1,0 +1,38 @@
+C:\Users\Juries\AppData\Local\Temporary Projects\Santillan Learning Center\bin\Debug\Santillan Learning Center.exe
+C:\Users\Juries\AppData\Local\Temporary Projects\Santillan Learning Center\bin\Debug\Santillan Learning Center.pdb
+C:\Users\Juries\AppData\Local\Temporary Projects\Santillan Learning Center\bin\Debug\Santillan Learning Center.xml
+C:\Users\Juries\AppData\Local\Temporary Projects\Santillan Learning Center\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Juries\AppData\Local\Temporary Projects\Santillan Learning Center\obj\x86\Debug\Santillan_Learning_Center.Resources.resources
+C:\Users\Juries\AppData\Local\Temporary Projects\Santillan Learning Center\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Juries\AppData\Local\Temporary Projects\Santillan Learning Center\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Juries\AppData\Local\Temporary Projects\Santillan Learning Center\obj\x86\Debug\Santillan Learning Center.exe
+C:\Users\Juries\AppData\Local\Temporary Projects\Santillan Learning Center\obj\x86\Debug\Santillan Learning Center.xml
+C:\Users\Juries\AppData\Local\Temporary Projects\Santillan Learning Center\obj\x86\Debug\Santillan Learning Center.pdb
+C:\Users\Juries\AppData\Local\Temporary Projects\Santillan Learning Center\obj\x86\Debug\Santillan_Learning_Center.Main.resources
+D:\juries\programming\Visual Studio 2010\Projects\Santillan Learning Center\Santillan Learning Center\obj\x86\Debug\Santillan Learning Center.exe
+D:\juries\programming\Visual Studio 2010\Projects\Santillan Learning Center\Santillan Learning Center\obj\x86\Debug\Santillan Learning Center.xml
+D:\juries\programming\Visual Studio 2010\Projects\Santillan Learning Center\Santillan Learning Center\obj\x86\Debug\Santillan Learning Center.pdb
+D:\juries\programming\Visual Studio 2010\Projects\Santillan Learning Center\Santillan Learning Center\bin\Debug\Santillan Learning Center.exe
+D:\juries\programming\Visual Studio 2010\Projects\Santillan Learning Center\Santillan Learning Center\bin\Debug\Santillan Learning Center.pdb
+D:\juries\programming\Visual Studio 2010\Projects\Santillan Learning Center\Santillan Learning Center\bin\Debug\Santillan Learning Center.xml
+D:\juries\programming\Visual Studio 2010\Projects\Santillan Learning Center\Santillan Learning Center\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\juries\programming\Visual Studio 2010\Projects\Santillan Learning Center\Santillan Learning Center\obj\x86\Debug\Santillan_Learning_Center.EnrollmentNewStudent.resources
+D:\juries\programming\Visual Studio 2010\Projects\Santillan Learning Center\Santillan Learning Center\obj\x86\Debug\Santillan_Learning_Center.EnrollmentOldStudent.resources
+D:\juries\programming\Visual Studio 2010\Projects\Santillan Learning Center\Santillan Learning Center\obj\x86\Debug\Santillan_Learning_Center.Main.resources
+D:\juries\programming\Visual Studio 2010\Projects\Santillan Learning Center\Santillan Learning Center\obj\x86\Debug\Santillan_Learning_Center.Resources.resources
+D:\juries\programming\Visual Studio 2010\Projects\Santillan Learning Center\Santillan Learning Center\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\juries\programming\Visual Studio 2010\Projects\Santillan Learning Center\Santillan Learning Center\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\juries\programming\Visual Studio 2010\Projects\Santillan Learning Center\Santillan Learning Center\obj\x86\Debug\Santillan_Learning_Center.Lock.resources
+D:\juries\programming\Visual Studio 2010\Projects\Santillan Learning Center\Santillan Learning Center\bin\Debug\Santillan Learning Center.exe.config
+D:\juries\programming\Visual Studio 2010\Projects\Santillan Learning Center\Santillan Learning Center\obj\x86\Debug\Santillan_Learning_Center.AccountChangePassword.resources
+D:\juries\programming\Visual Studio 2010\Projects\Santillan Learning Center\Santillan Learning Center\obj\x86\Debug\Santillan_Learning_Center.AccountCreateNew.resources
+D:\juries\programming\Visual Studio 2010\Projects\Santillan Learning Center\Santillan Learning Center\obj\x86\Debug\Santillan_Learning_Center.AccountLogin.resources
+D:\juries\programming\Visual Studio 2010\Projects\Santillan Learning Center\Santillan Learning Center\obj\x86\Debug\Santillan_Learning_Center.About.resources
+D:\juries\programming\Visual Studio 2010\Projects\Santillan Learning Center\Santillan Learning Center\obj\x86\Debug\Santillan_Learning_Center.Help.resources
+D:\juries\programming\Visual Studio 2010\Projects\Santillan Learning Center\Santillan Learning Center\obj\x86\Debug\Santillan_Learning_Center.TuitionFeeUpdate.resources
+D:\juries\programming\Visual Studio 2010\Projects\Santillan Learning Center\Santillan Learning Center\obj\x86\Debug\Santillan_Learning_Center.StudentSearch.resources
+D:\juries\programming\Visual Studio 2010\Projects\Santillan Learning Center\Santillan Learning Center\obj\x86\Debug\Santillan_Learning_Center.Students.resources
+D:\juries\programming\Visual Studio 2010\Projects\Santillan Learning Center\Santillan Learning Center\obj\x86\Debug\Santillan_Learning_Center.EditBasicInformation.resources
+D:\juries\programming\Visual Studio 2010\Projects\Santillan Learning Center\Santillan Learning Center\obj\x86\Debug\Santillan_Learning_Center.EditGuardiansInformation.resources
+D:\juries\programming\Visual Studio 2010\Projects\Santillan Learning Center\Santillan Learning Center\obj\x86\Debug\Santillan_Learning_Center.SplashScreen.resources
+D:\juries\programming\Visual Studio 2010\Projects\Santillan Learning Center\Santillan Learning Center\obj\x86\Debug\Santillan_Learning_Center.Payment.resources
